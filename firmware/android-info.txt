@@ -1,0 +1,4 @@
+require board=redfin
+
+require version-bootloader=r3-0.4-8351081
+require version-baseband=g7250-00202-220422-B-8489468
