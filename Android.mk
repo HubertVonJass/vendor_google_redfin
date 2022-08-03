@@ -6,4 +6,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),redfin)
 
+$(call add-radio-file,firmware/bootloader.img)
+$(call add-radio-file,firmware/radio.img)
+
 endif
