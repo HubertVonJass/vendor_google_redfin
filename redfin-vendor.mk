@@ -2208,3 +2208,7 @@ PRODUCT_PACKAGES += \
     manifest_wifi_ext \
     rebootescrow-citadel \
     vendor.google.wireless_charger@1.3-service-vendor
+
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.build.expect.bootloader=r3-0.4-8351081 \
+    ro.build.expect.baseband=g7250-00202-220422-B-8489468
